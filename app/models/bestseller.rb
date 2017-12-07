@@ -1,5 +1,6 @@
 class Bestseller
   include HTTParty
+
   base_uri = "https://api.nytimes.com/svc/books/v3/lists/combined-print-and-e-book-fiction.json"
 
 
